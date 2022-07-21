@@ -26,9 +26,9 @@ G4VPhysicalVolume* DetectorConstruction::Construct() {
     G4bool checkOverlaps = true;
 
     // World
-    G4double world_sizeX = 20. * cm;
-    G4double world_sizeY = 20. * cm;
-    G4double world_sizeZ = 10. * cm;
+    G4double world_sizeX = 10. * cm;
+    G4double world_sizeY = 10. * cm;
+    G4double world_sizeZ = 5. * cm;
     G4Material* world_mat = nist->FindOrBuildMaterial("G4_AIR");
 
     G4Box* solidWorld = new G4Box("World", 0.5 * world_sizeX, 0.5 * world_sizeY,

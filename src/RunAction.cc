@@ -115,7 +115,7 @@ void RunAction::EndOfRunAction(const G4Run* run) {
             G4RunManager::GetRunManager()->GetUserPrimaryGeneratorAction());
     G4String runCondition;
     if (generatorAction) {
-        const G4ParticleGun* particleGun = generatorAction->GetParticleGun();
+        const G4GeneralParticleSource* particleGun = generatorAction->GetParticleGun();
         runCondition += particleGun->GetParticleDefinition()->GetParticleName();
         runCondition += " of ";
         G4double particleEnergy = particleGun->GetParticleEnergy();

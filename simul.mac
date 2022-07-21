@@ -1,0 +1,58 @@
+/run/initialize
+
+/gps/source/add 60.
+/gps/particle e-
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/centre 0. 0. -0.1 cm
+/gps/pos/radius 0.4 cm
+/gps/pos/halfz 0.3 cm
+/gps/ang/type iso
+/gps/ene/type Pow
+/gps/energy 5.19 keV
+
+/gps/source/add 16.2
+/gps/particle gamma
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/centre 0. 0. -0.1 cm
+/gps/pos/radius 0.4 cm
+/gps/pos/halfz 0.3 cm
+/gps/ang/type iso
+/gps/ene/type Pow
+/gps/energy 5.90 keV
+
+/gps/source/add 8.2
+/gps/particle gamma
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/centre 0. 0. -0.1 cm
+/gps/pos/radius 0.4 cm
+/gps/pos/halfz 0.3 cm
+/gps/ang/type iso
+/gps/ene/type Pow
+/gps/energy 5.89 keV
+
+/gps/source/add 2.85
+/gps/particle gamma
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/centre 0. 0. -0.1 cm
+/gps/pos/radius 0.4 cm
+/gps/pos/halfz 0.3 cm
+/gps/ang/type iso
+/gps/ene/type Pow
+/gps/energy 6.49 keV
+
+/gps/source/add 12.75
+/gps/particle gamma
+/gps/pos/type Volume
+/gps/pos/shape Cylinder
+/gps/pos/centre 0. 0. -0.1 cm
+/gps/pos/radius 0.4 cm
+/gps/pos/halfz 0.3 cm
+/gps/ang/type iso
+/gps/ene/type Pow
+/gps/energy 7.0 keV
+
+/run/beamOn 34300000
