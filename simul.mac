@@ -55,4 +55,4 @@
 /gps/ene/type Pow
 /gps/energy 7.0 keV
 
-/run/beamOn 34300000
+/run/beamOn 343

@@ -88,7 +88,7 @@ G4VPhysicalVolume* DetectorConstruction::Construct() {
                       checkOverlaps);
     // Shape1
 
-    // ALPIDE
+    // ALPIDE def
     G4double alpide_sizeX = 1.5 * cm;
     G4double alpide_sizeY = 0.75 * cm;
     G4double alpide_sizeZ = 0.025 * mm;
